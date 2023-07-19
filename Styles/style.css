@@ -266,3 +266,148 @@ footer{
     width: 30%;
     margin-bottom: 20px;
   }
+
+
+
+  @media screen and (max-width: 430px) {
+
+    /* Nav Responsive Codes */
+
+    nav{
+        padding: 0px;
+        flex-direction: column;
+        height: 230px;
+        line-height: 40px;
+    }
+    .nav-container ul{
+        flex-direction: column;
+        margin-bottom: 30px;
+
+    }
+    .nav-btn{
+        width: 200px;
+        height: 20px;
+        display: flex;
+        align-items: center;  
+    }
+
+
+/* Banner Responsive codes */
+  
+    .banner {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+    .go-btn{
+        margin-top: 20px;
+    }
+    .banner-text {
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .banner-img img {
+      width: 300px;
+      height: auto;
+    }
+
+    /* Online game section responsive codes */
+
+    .online-games {
+        padding: 0px 20px;
+        margin-top: 50px;
+      }
+    
+      .online,
+      .funny {
+        font-size: 1.5rem;
+      }
+    
+      .online-videos {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .online-cards img {
+        width: 200px;
+        margin-top: 10px;
+      }
+    
+      .online-cards p {
+        font-size: 0.7rem;
+        line-height: 20px;
+      }
+
+
+
+      /* Play Instant Section Responsive codes */
+    
+
+      .play-instant{
+        flex-direction: column;
+        padding: 0px 50px;
+    }
+    .play-text-container{
+        text-align: center;
+        width: 100%;
+    }
+    .play-img-container{
+        justify-content: center;
+    }
+    .play-img-container img{
+        width: 50%;
+        margin-bottom: 100px;
+    }
+    .angela-img{
+        left: 70px;
+        top: 100px;
+        
+    }
+
+    /* Games Section responsive */
+
+
+
+
+    .games{
+        padding: 100px 50px;
+    }
+    .first-game-line{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .second-game-line{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding: 0px;
+    }
+
+
+
+/* Footer Section Responsive Codes */
+
+
+
+    footer{
+        padding: 0px 70px;
+        margin-top: 0px;
+    }
+    .footer-nav ul{
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+    }
+    .social-media {
+
+        align-items: center;
+        width: 100%;
+        font-size: 30px;
+    }
+    .footer-nav ul li{
+        margin: 10px;
+    }
+    .social-media a{
+        margin: 10px;
+    }
+  }

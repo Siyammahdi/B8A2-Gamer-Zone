@@ -27,9 +27,7 @@
         width: 400px;
         margin-right: 130px;
     }
-    .banner-img img{
-        /* width: 100%; */
-    }
+    
     .online-games{
         padding: 0px;
     }
@@ -41,3 +39,4 @@
         display: none;
     }
 }
+
