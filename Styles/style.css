@@ -5,6 +5,7 @@
 :root{
     --primary-color: #FF42A5;
     --title-color: #0B0223;
+    --description-color: #534C64;
 }
 
 *{
@@ -21,11 +22,17 @@ body{
     font-family: 'Work Sans', sans-serif;
 }
 
+.paragraph-text{
+    color: var(--description-color);
+    font-size: 0.7rem;
+    line-height: 25px;
+}
+
 /* Header Section Styles */
 
 nav{
     padding: 0px 170px;
-    height: 90px;
+    /* height: 90px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -64,3 +71,198 @@ nav{
     font-size: 23px;
     color: red;
 }
+
+/* Banner Section Styles */
+
+.banner{
+    padding: 0px 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-text h3{
+    color: var(--title-color);
+    font-size: 2rem;
+}
+.banner-text h1{
+    font-size: 4rem;
+    font-weight: 800;
+    background-image: linear-gradient(#F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.banner p{
+    color: var(--description-color);
+    font-size: 0.8rem;
+    line-height: 25px;
+}
+.sign-btn{
+    padding: 13px 30px;
+    border-radius: 30px;
+    border: none;
+    background-color: var(--primary-color);
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.go-btn{
+    padding: 13px 30px;
+    border-radius: 30px;
+    border: none;
+    background-color: #4EC5F7;
+}
+.banner-img{
+    display: flex;
+    justify-content: end;
+}
+.banner-img img{
+    width: 70%;
+    
+}
+/* Online Games Section Styles */
+.online{
+    color: var(--title-color);
+    font-size: 2rem;
+}
+.funny{
+    font-size: 2rem;
+    background-image: linear-gradient(#F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.online-games{
+    padding: 0px 170px;
+    margin-top: 100px;
+    text-align: center;
+}
+.online-videos{
+    display: flex;
+    justify-content: space-around;
+}
+.online-cards img{ 
+    width: 220px;
+    margin-top: 20px;
+}
+.online-cards{
+    width: 100%;
+    text-align: start;
+}
+.online-cards p{
+    color: var(--description-color);
+    font-size: 0.8rem;
+    line-height: 25px;
+}
+
+/* Play Instantly Section Styles */
+
+.play-instant{
+    margin-top: 100px;
+    padding: 0px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.play-text-container{
+    text-align: right;
+    width: 300px;
+}
+
+.play-text-container h2{
+    background-image: linear-gradient(#F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 2rem;
+}
+.play-text-container h3{
+    color: var(--title-color);
+    font-size: 2rem;
+}
+
+.play-img-container{
+    display: flex;
+    justify-content: end;
+}
+
+.play-img-container img{
+    width: 70%;
+}
+.angela-img{
+    position: relative;
+    height: 200px;
+    width: 100px;
+    left: 100px;
+    top: 350px;
+}
+
+/* Games Section Styles */
+
+.games{
+    padding: 200px 150px 100px 150px;
+}
+
+.first-game-line{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-bottom: 20px;
+}
+.second-game-line{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 20px;
+    padding: 0px 70px;
+}
+.game-btn{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.game-btn h5{
+    padding-left: 10px;
+}
+.game-btn img{
+    width: 40px;
+}
+.game-btn:hover{
+    outline: 2px solid var(--primary-color);
+    border-radius: 50px;
+}
+/* Footer Section Styles */
+footer{
+    background-color: var(--title-color);
+    margin-top: 100px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo img{
+    width: 60px;
+    height: 30px;
+    margin: 20px;
+}
+.footer-nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    width: 40%;
+    list-style: none;
+    font-size: 0.7em;
+}
+.social-media {
+    margin: auto;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    width: 30%;
+    margin-bottom: 20px;
+  }
