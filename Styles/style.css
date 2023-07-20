@@ -59,17 +59,20 @@ nav{
     font-weight: 500;
     color: var(--title-color);
     text-decoration: none;
-    padding: 20px;
+    padding: 0px 20px ;
 }
 .nav-btn{
-
+    display: flex;
+    align-items: center;
     background-color:  rgba(11, 2, 35, 0.10);
     border-radius: 5px;
     padding: 8px 20px 8px 0px;
-}    
+    margin: 30px 0px;
+}   
 .fa-youtube{
     font-size: 23px;
     color: red;
+    padding-right: 10px;
 }
 
 /* Banner Section Styles */
@@ -105,12 +108,16 @@ nav{
     background-color: var(--primary-color);
     margin-top: 20px;
     margin-right: 10px;
+    color: white;
+    font-weight: 700;
 }
 .go-btn{
     padding: 13px 30px;
     border-radius: 30px;
     border: none;
     background-color: #4EC5F7;
+    color: white;
+    font-weight: 700;
 }
 .banner-img{
     display: flex;
@@ -145,6 +152,12 @@ nav{
     width: 220px;
     margin-top: 20px;
 }
+.online-cards img:hover{
+    outline: 3px solid var(--primary-color);
+    border-radius: 12px;
+    -webkit-filter: brightness(50%);
+}
+
 .online-cards{
     width: 100%;
     text-align: start;
@@ -154,6 +167,7 @@ nav{
     font-size: 0.8rem;
     line-height: 25px;
 }
+
 
 /* Play Instantly Section Styles */
 
@@ -228,6 +242,7 @@ nav{
 .game-btn:hover{
     outline: 2px solid var(--primary-color);
     border-radius: 50px;
+    color: var(--primary-color);
 }
 /* Footer Section Styles */
 footer{
@@ -265,8 +280,7 @@ footer{
     margin-bottom: 15px;
     width: 30%;
     margin-bottom: 20px;
-  }
-
+}
 
 
   @media screen and (max-width: 430px) {
@@ -326,7 +340,7 @@ footer{
     
       .online-videos {
         flex-direction: column;
-        align-items: center;
+        margin-left: 100px;
       }
     
       .online-cards img {
@@ -337,7 +351,10 @@ footer{
       .online-cards p {
         font-size: 0.7rem;
         line-height: 20px;
+        width: 70%;
+        margin-bottom: 50px;
       }
+      
 
 
 
@@ -469,6 +486,7 @@ footer{
       flex-direction: column;
       align-items: center;
       justify-content: space-between;
+      margin-left: 190px;
     }
   
     .online-cards img {
@@ -479,6 +497,8 @@ footer{
     .online-cards p {
       font-size: 1rem;
       line-height: 30px;
+      width: 70%;
+      margin-bottom: 50px;
     }
   
     
